@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    word-break: break-all;
+}
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+/* OLD CODE */
+#banner img {
+    width: 100%;
+}
+
+#banner {
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#wrapper {
+    width: 96%;
+    max-width: 920px;
+    margin: auto;
+    padding: 2%;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav a {
+    color: #111;
+    background-color: #FFF;
+}
+
+nav ul {
+    margin: 0;
+    margin-top: .5em;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+a,
+img {
+    outline: none;
+    border: none;
+    color: #000;
+    font-weight: ;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: px;
+    margin-bottom: 0px;
+    background: #ffffff;
+}
+
+
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    color: #111;
+    background-color: #FFF;
+}
+
+nav ul {
+    margin: 0;
+    margin-top: .5em;
+    padding: 0;
+    list-style-type: none;
+}
+.me {
+    float:inherit;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+}
+.me img {
+    width: 30%;
+}
+
+
+#center {
+    text-align: center;
+    border: 3px solid white;
+}
+
+
+
+
+
+
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+
+@media screen and (max-width: 480px) {
+
+    header nav,
+     {
+        float: left;
+        clear: left;
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    header nav li {
+        margin: 0;
+        background: #efefef;
+        display: block;
+        margin-bottom: 3px;
+    }
+    header nav a {
+        display: block;
+        padding: px;
+        text-align: center;
+    }
+}
